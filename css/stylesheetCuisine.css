@@ -1,0 +1,230 @@
+
+.container {
+    margin: 0 auto;
+    width: 87%;
+
+}
+h1 img{
+    max-width: 100%; 
+}
+header img{
+    width: 100%;
+    position: relative;
+}
+
+nav a{
+    color: rgb(253, 250, 250);
+    text-decoration: none;
+    display: table-row;
+}
+nav{
+    background-color: rgb(145, 84, 3);
+    border: 5px solid  rgb(145, 84, 3);
+}
+ul{
+    display: flexbox;
+    justify-content: space-between;
+    text-align: center;
+    border: 2px solid white;
+
+}
+
+li {
+    display: inline-block;
+    width: 100px;
+    line-height: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    font-size: larger;
+    
+}
+
+
+a:hover{
+    background-color:rgb(90, 51, 2) ;
+    transition: color 0.3s ease-in-out;
+}
+
+
+
+
+header{
+    text-align: center;
+    width: 100%;
+}
+a:hover{
+    background-color:rgb(90, 51, 2) ;
+    transition: color 0.3s ease-in-out;
+}
+body{
+    background: rgb(191, 180, 163);
+    font-family: 'Source Sans Pro', sans-serif;
+    display: block;
+
+}
+
+section img {
+float: left;
+max-width: 100%;
+width: 400px;
+height: 250px;
+padding-right: 30px;
+padding-left: 20px;
+padding-bottom: 19.92px;
+
+}
+
+section {
+ width: 33%;
+ float: left;
+ box-sizing: border-box;
+ padding: 0 10px;
+ overflow: hidden;
+}
+
+
+h3 {
+    font-size: x-large;
+    margin-bottom: 19.92px;
+    margin-top: 19.92px;
+    font-family: satisfy;
+    color: rgb(130, 56, 3);
+    text-align: center;
+}
+
+h4 {
+    font-size: x-large;
+    margin-bottom: 19.92px;
+    margin-top: 19.92px;
+    color: rgb(130, 56, 3);
+    font-family: satisfy;
+    text-align: center;
+}
+
+h2 {
+    font-size: x-large;
+    color: rgb(130, 56, 3);
+    font-family: satisfy;
+    text-align: center;
+}
+
+aside.food img {
+    width: 250px;
+    height: 150px;
+    max-width: 100%;
+    padding-left: 19%;
+ 
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 480px){
+    
+    header{
+        padding: .25em;
+        text-align: center;
+    }
+    nav {
+        font-size: 1.3em;
+        width: 80%;
+        margin: 0 auto;
+    }
+    nav ul {
+        margin: 0;
+        padding: .1em;
+
+    }
+    nav li{
+        background-color: rgb(127, 77, 3);
+        border-radius: 1em;
+        list-style-type: none;
+        width: 100%;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+    nav a{
+        padding: .8em;
+        display: inline-block;
+        width: 100%;
+    }
+    section {
+        display: block;
+        padding:  0 4%;
+        vertical-align: middle;
+        display: block;
+        -webkit-text-size-adjust: 100%;
+ 
+
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    header{
+        padding: .6em;
+        text-align: center;
+    
+    nav {
+        font-size: 1.4em; 
+        width: 80%;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+        display: row-gap: ;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+
+    }
+    nav li{
+       display: inline;
+    }
+    nav a{
+        padding: 1em;
+        display: inline-block;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    h1 img{
+        max-width: 100%; 
+    }
+    header img{
+        width: 100%;
+        position: relative;
+    }
+    header{
+        text-align: center;
+        width: 100%;
+    }
+    
+    nav a{
+        color: rgb(253, 250, 250);
+        text-decoration: none;
+        display: block;
+    }
+    nav{
+        background-color: rgb(145, 84, 3);
+        border: 5px solid  rgb(145, 84, 3);
+    }
+    ul{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        border: 2px solid white;
+    
+    }
+    
+    li{
+        display: inline-block;
+        width: 100px;
+        line-height: 2em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-variant: small-caps;
+        font-size: larger;
+    }
+    
+ 
+    
+}
+
